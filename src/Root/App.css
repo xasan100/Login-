@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;0,800;1,200&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+.Container{
+    width: 100%;
+    margin: 0px;
+    height: 0px ;
+    max-width: 1440px;
+    background:black;
+    height: 15vh;
+}
+.miniContainer  {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+    color: white;
+}
+
+
+/* Login */
+
+.Login {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Login-inputs{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center; 
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #cecece;
+    margin: 10px 0px;
+}
+
+small {
+    color: red ;
+}
+
+button {
+        padding: 10px;
+        width: 300px;
+        margin: 10px 0px;
+        background-color: black;
+        color: white;
+
+}
